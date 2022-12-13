@@ -447,7 +447,7 @@
  			<p class="text-light lead">Loream Ipsum is simply dummy text of typesetting industry.</p>
  		</div>
  		<!-- End title -->
-
+ 		<div class="row">
  		<div class="col-md-4 col-sm-10 mx-auto mb-3">
  			<div class=" card text-center">
  				<div class="card-body">
@@ -524,19 +524,20 @@
  		</div>
  		
  	</div>
+
  </section>
 <!-- End Pricing Section -->
 
 <!-- Start Contact Section -->
-	<section>
-		<div class="container-fluid">
+<section>
+	<div class="container-fluid">
 		<!-- Start title -->
 		<div class="col-12 text-center">
 			<h2 class="text-warning display-4">Contact</h2>
 		</div>
 		<!-- End title -->
 		<div class="row">
-			<div class="col-lg-6 col-md-8 col-sm-10 mx-auto">
+			<div class="col-lg-6 col-md-8 col-sm-10 mx-auto mb-3">
 				<div class="card">
 					<div class="card-header">
 						<h5 class="card-title">Office Location</h5>
@@ -551,10 +552,38 @@
 					</div>
 				</div>
 			</div>
+			<div class="col-lg-6 col-md-8 col-sm-10 mx-auto mb-3">
+				<div class="text-center text-secondary">
+					<h3>Got Question ?</h3>
+					<p>Stay Conneted </p>
+				</div>
+				<form action="" method="">
+					<div class="col-md-12 form-group mb-3">
+						<label for="name">Name</label>
+						<input type="type" name="name" id="name" class="form-control form-control-sm rounded-0" placeholder="Enter your name"/>
+					</div>
+
+					<div class="col-md-12 form-group mb-3">
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email" class="form-control form-control-sm rounded-0" placeholder="Enter your email"/>
+					</div>
+
+					<div class="col-md-12 form-group mb-3">
+						<label for="message">Message</label>
+						<textarea name="message" id="message" class="form-control form-control-sm rounded-0" rows="3"placeholder="Enter your Message"></textarea>
+					</div>
+
+					<div class="d-grid">
+						<button type="submit" class="btn btn-warning rounded-0">Submit</button>
+					</div>
+				</form>
+
+			</div>
 		</div>
+	</div>
 		
-		</div>
-	</section>
+	
+</section>
 	
 <!-- End Contact Section -->
 
@@ -564,7 +593,7 @@
 	<footer class="bg-dark py-3">
 		<div class="container-fluid">			
 			<div class="col-12 text-center">
-				<p class="text-white">&copy; Copyright <span id="autoyear"> - Mase by PTT Co.,Ltd.</span></p>
+				<p class="text-white">&copy; Copyright <span id="autoyear"> - Made by PTT Co.,Ltd.</span></p>
 			</div>		
 		</div>	
 
@@ -590,8 +619,6 @@
 					<div class="modal-header">
 						<h5 class="modal-title">Login Here</h5>
 						<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-
-						
 					</div>
 
 					<div class="modal-body">
@@ -607,8 +634,8 @@
 									<input type="password" name="loginpassword" id="loginpassword" class="form-control form-control-sm rounded-0" placeholder="Enter your password" />
 								</div>
 
-								<div class="">
-									<button type="cancel" class="btn btn-secondary btn-sm" >Cancel</button>
+								<div class="d-flex justify-content-end">
+									<button type="cancel" class="btn btn-secondary btn-sm" data-bs-dismiss="modal" >Cancel</button>
 									<button type="submit" class="btn btn-primary btn-sm ms-3">Login</button>
 								</div>
 							</form>
@@ -617,7 +644,7 @@
 					</div>
 
 					<div class="modal-footer">
-						
+						<p>Not Register!!! <a href="#">Signup Here</a></p>
 					</div>
 					
 				</div>
